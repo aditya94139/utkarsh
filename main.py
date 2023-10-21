@@ -146,5 +146,7 @@ async def account(bot: Client, m: Message):
     except Exception as e:
       await m.reply_text(str(e))
     os.remove(f"{mm} - {t_name1}.txt")
+
+    
     bot.run()
 
